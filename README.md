@@ -43,9 +43,9 @@ try:
 except ValueError:
     print("ValueError: list.remove(x): x not in list")
 ```
-Output is **
+Output is 
 [10, 20, 98, 75, 12]
-ValueError: list.remove(x): x not in list**.
+ValueError: list.remove(x): x not in list.
 
 ## Removing items from the list using index
 You an remove items from a list be knowing index of them. If you want to remove the item in place of index 2, give th index of item (2) to **pop()** method. The item at that index will be removed by **list.pop()** method. If the index is not in the list, it eill raise an error.
