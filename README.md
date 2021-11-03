@@ -11,7 +11,7 @@ c = [1,3,5,7,9]
 
 ## Appending a list
 You can append item tnto a list using **append()** method.
-``
+```
 a.append(20)
 print(a)
 ```
