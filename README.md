@@ -86,8 +86,8 @@ Output is **1**.
 
 ## Sorting item in the list
 Item in the list can be sort using **sort()** method. Normally, **sort()** method doesn't take any argument and sort in ascending order. But, it can take two argument **key** and **reverse**. 
--**reverse = True** will sort in descending order.
--**reverse = False** will sort in ascending order.
+- **reverse = True** will sort in descending order.
+- **reverse = False** will sort in ascending order.
 If there is no argument in sort() method, reverse is false.
 ```
 c.sort(key=None, reverse=False)
